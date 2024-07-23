@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCCG TEENS TESTIMONIES PAGE</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="redeem.png" type="image/x-icon">
+    <style>
+        * {
+            outline: none;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(redeem_bg.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Share Your Spiritual Testimonies</h1>
+            <h3 class="mt-2">Let others be inspired by your spiritual journey.</h3>
+        </div>
+    </header>
+
+    <section class="my-8 container mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Submit Your Testimony</h2>
+            <form id="testimonialForm" class="space-y-4">
+                <textarea id="testimonialText" rows="5" cols="40" class="w-full p-2 border rounded-md"
+                    placeholder="Write your testimonies here..."></textarea>
+                <button type="button" class="bg-blue-600 text-white py-2 px-4 rounded-md"
+                    onclick="submitTestimonial()"><i class='bx bx-subdirectory-right'></i>
+                    <a href="mailto: olanrewajufashola8@gmail.com">Submit Testimony</a></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- <section id="testimonials" class="my-8 container mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Previous Testimonies</h2>
+        </div>
+    </section> -->
+
+    <section class="my-8 container mx-auto">
+        <div class="bg-gray-200 p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Featured Testimony</h2>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">Sister Joy</h3>
+                <p>
+                    I want to share how God blessed my family with a new home after years of struggle. It was a miracle
+                    that came through prayer and faith. We are now living comfortably and give all glory to God.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-8 container mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Inspirational Quotes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <p>"For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to
+                        give you a future and a hope." - Jeremiah 29:11</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <p>"The Lord is my shepherd; I shall not want. He makes me lie down in green pastures. He leads me
+                        beside still waters." - Psalm 23:1-2</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg">
+                    <p>"I can do all things through him who strengthens me." - Philippians 4:13</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-8 container mx-auto">
+        <div class="bg-gray-200 p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Upcoming Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Bible Study</h3>
+                    <p>Join us every Tuesday at 6:30 PM for an in-depth Bible study session. Grow in your knowledge and
+                        understanding of the Word.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Community Outreach</h3>
+                    <p>Our next community outreach program will be held on Saturday. We will be distributing food and
+                        essentials to those in need. Volunteers are welcome!</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Prayer Night</h3>
+                    <p>Join us for a powerful night of prayer and worship. Come and experience the presence of God in a
+                        special way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 RCCG Teens Testimonies. All rights reserved.</p>
+            <button class="mt-4 bg-blue-700 hover:bg-blue-600 text-white py-2 px-4 rounded-md">
+                <i class='bx bx-arrow-back'></i>
+                <a href="index.html">BACK TO HOME</a>
+            </button>
+        </div>
+    </footer>
+
+      <!-- Tailwind Link -->
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- Scrollreveal Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main Js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
